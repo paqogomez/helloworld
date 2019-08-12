@@ -1,0 +1,1 @@
+docker run -dit --rm -p 5000:80 helloworld

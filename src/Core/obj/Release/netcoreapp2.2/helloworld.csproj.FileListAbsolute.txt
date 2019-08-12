@@ -1,0 +1,14 @@
+C:\app\helloworld.deps.json
+C:\app\helloworld.runtimeconfig.json
+C:\app\helloworld.runtimeconfig.dev.json
+C:\app\helloworld.dll
+C:\app\helloworld.pdb
+C:\dev\practicefusion\LabsNetworkPocSpikes\helloworld\src\helloworld\obj\Release\netcoreapp2.2\helloworld.csprojAssemblyReference.cache
+C:\dev\practicefusion\LabsNetworkPocSpikes\helloworld\src\helloworld\obj\Release\netcoreapp2.2\helloworld.csproj.CoreCompileInputs.cache
+C:\dev\practicefusion\LabsNetworkPocSpikes\helloworld\src\helloworld\obj\Release\netcoreapp2.2\helloworld.RazorAssemblyInfo.cache
+C:\dev\practicefusion\LabsNetworkPocSpikes\helloworld\src\helloworld\obj\Release\netcoreapp2.2\helloworld.RazorAssemblyInfo.cs
+C:\dev\practicefusion\LabsNetworkPocSpikes\helloworld\src\helloworld\obj\Release\netcoreapp2.2\helloworld.AssemblyInfoInputs.cache
+C:\dev\practicefusion\LabsNetworkPocSpikes\helloworld\src\helloworld\obj\Release\netcoreapp2.2\helloworld.AssemblyInfo.cs
+C:\dev\practicefusion\LabsNetworkPocSpikes\helloworld\src\helloworld\obj\Release\netcoreapp2.2\helloworld.RazorTargetAssemblyInfo.cache
+C:\dev\practicefusion\LabsNetworkPocSpikes\helloworld\src\helloworld\obj\Release\netcoreapp2.2\helloworld.dll
+C:\dev\practicefusion\LabsNetworkPocSpikes\helloworld\src\helloworld\obj\Release\netcoreapp2.2\helloworld.pdb

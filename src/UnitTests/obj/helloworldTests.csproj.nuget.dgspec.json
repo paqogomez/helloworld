@@ -1,0 +1,233 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\dev\\practicefusion\\LabsNetworkPocSpikes\\helloworld\\test\\helloworldTests\\helloworldTests.csproj": {}
+  },
+  "projects": {
+    "C:\\dev\\practicefusion\\LabsNetworkPocSpikes\\helloworld\\src\\helloworld\\helloworld.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\dev\\practicefusion\\LabsNetworkPocSpikes\\helloworld\\src\\helloworld\\helloworld.csproj",
+        "projectName": "helloworld",
+        "projectPath": "C:\\dev\\practicefusion\\LabsNetworkPocSpikes\\helloworld\\src\\helloworld\\helloworld.csproj",
+        "packagesPath": "C:\\Users\\c843163\\.nuget\\packages\\",
+        "outputPath": "C:\\dev\\practicefusion\\LabsNetworkPocSpikes\\helloworld\\src\\helloworld\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\c843163\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "http://artifactory.hq.practicefusion.com:8081/artifactory/api/nuget/nuget-pf": {},
+          "http://artifactory.hq.practicefusion.com:8081/artifactory/api/nuget/nuget-pftest": {},
+          "http://artifactory.hq.practicefusion.com:8081/artifactory/api/nuget/nuget-platform-common-libs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "Microsoft.AspNetCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            },
+            "Microsoft.AspNetCore.Razor.Design": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            },
+            "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": {
+              "target": "Package",
+              "version": "[1.7.9, )"
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    },
+    "C:\\dev\\practicefusion\\LabsNetworkPocSpikes\\helloworld\\test\\helloworldTests\\helloworldTests.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\dev\\practicefusion\\LabsNetworkPocSpikes\\helloworld\\test\\helloworldTests\\helloworldTests.csproj",
+        "projectName": "helloworldTests",
+        "projectPath": "C:\\dev\\practicefusion\\LabsNetworkPocSpikes\\helloworld\\test\\helloworldTests\\helloworldTests.csproj",
+        "packagesPath": "C:\\Users\\c843163\\.nuget\\packages\\",
+        "outputPath": "C:\\dev\\practicefusion\\LabsNetworkPocSpikes\\helloworld\\test\\helloworldTests\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\c843163\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "http://artifactory.hq.practicefusion.com:8081/artifactory/api/nuget/nuget-pf": {},
+          "http://artifactory.hq.practicefusion.com:8081/artifactory/api/nuget/nuget-pftest": {},
+          "http://artifactory.hq.practicefusion.com:8081/artifactory/api/nuget/nuget-platform-common-libs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {
+              "C:\\dev\\practicefusion\\LabsNetworkPocSpikes\\helloworld\\src\\helloworld\\helloworld.csproj": {
+                "projectPath": "C:\\dev\\practicefusion\\LabsNetworkPocSpikes\\helloworld\\src\\helloworld\\helloworld.csproj"
+              },
+              "C:\\dev\\practicefusion\\LabsNetworkPocSpikes\\helloworld\\test\\TestsBase\\TestsBase.csproj": {
+                "projectPath": "C:\\dev\\practicefusion\\LabsNetworkPocSpikes\\helloworld\\test\\TestsBase\\TestsBase.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "FluentAssertions": {
+              "target": "Package",
+              "version": "[5.7.0, )"
+            },
+            "MSTest.TestAdapter": {
+              "target": "Package",
+              "version": "[1.4.0, )"
+            },
+            "MSTest.TestFramework": {
+              "target": "Package",
+              "version": "[1.4.0, )"
+            },
+            "Microsoft.AspNetCore.Mvc.Core": {
+              "target": "Package",
+              "version": "[2.2.5, )"
+            },
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[16.2.0, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    },
+    "C:\\dev\\practicefusion\\LabsNetworkPocSpikes\\helloworld\\test\\TestsBase\\TestsBase.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\dev\\practicefusion\\LabsNetworkPocSpikes\\helloworld\\test\\TestsBase\\TestsBase.csproj",
+        "projectName": "TestsBase",
+        "projectPath": "C:\\dev\\practicefusion\\LabsNetworkPocSpikes\\helloworld\\test\\TestsBase\\TestsBase.csproj",
+        "packagesPath": "C:\\Users\\c843163\\.nuget\\packages\\",
+        "outputPath": "C:\\dev\\practicefusion\\LabsNetworkPocSpikes\\helloworld\\test\\TestsBase\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\c843163\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "http://artifactory.hq.practicefusion.com:8081/artifactory/api/nuget/nuget-pf": {},
+          "http://artifactory.hq.practicefusion.com:8081/artifactory/api/nuget/nuget-pftest": {},
+          "http://artifactory.hq.practicefusion.com:8081/artifactory/api/nuget/nuget-platform-common-libs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "MSTest.TestAdapter": {
+              "target": "Package",
+              "version": "[1.4.0, )"
+            },
+            "MSTest.TestFramework": {
+              "target": "Package",
+              "version": "[1.4.0, )"
+            },
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[16.0.1, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    }
+  }
+}

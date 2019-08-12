@@ -1,0 +1,31 @@
+FROM microsoft/dotnet:2.2-sdk AS base
+WORKDIR /app
+
+# Create a build image off of base
+FROM base AS build
+WORKDIR /app
+# Copy projects and src files into build image
+COPY ./src/. ./src/.
+
+# Create a test image from build
+FROM build AS test
+# Copy test directories
+COPY ./test/. ./test/.
+
+# Run tests
+WORKDIR /app/src
+RUN dotnet restore
+RUN dotnet dotcover test --dcReportType=html
+
+# Create a publish image from build
+FROM build AS publish
+WORKDIR /app
+# Run publish
+RUN dotnet publish ./src/Core/helloworld.Core.csproj -c Release -o /app
+
+# Create final image from aspnet
+FROM mcr.microsoft.com/dotnet/core/aspnet:2.2-alpine3.9 AS final
+WORKDIR /app
+# Copy app from publish
+COPY --from=publish /app .
+ENTRYPOINT ["dotnet", "helloworld.Core.dll"]

@@ -1,0 +1,14 @@
+C:\dev\practicefusion\LabsNetworkPocSpikes\helloworld\src\Core\bin\Debug\netcoreapp2.2\helloworld.Core.deps.json
+C:\dev\practicefusion\LabsNetworkPocSpikes\helloworld\src\Core\bin\Debug\netcoreapp2.2\helloworld.Core.runtimeconfig.json
+C:\dev\practicefusion\LabsNetworkPocSpikes\helloworld\src\Core\bin\Debug\netcoreapp2.2\helloworld.Core.runtimeconfig.dev.json
+C:\dev\practicefusion\LabsNetworkPocSpikes\helloworld\src\Core\bin\Debug\netcoreapp2.2\helloworld.Core.dll
+C:\dev\practicefusion\LabsNetworkPocSpikes\helloworld\src\Core\bin\Debug\netcoreapp2.2\helloworld.Core.pdb
+C:\dev\practicefusion\LabsNetworkPocSpikes\helloworld\src\Core\obj\Debug\netcoreapp2.2\helloworld.Core.csprojAssemblyReference.cache
+C:\dev\practicefusion\LabsNetworkPocSpikes\helloworld\src\Core\obj\Debug\netcoreapp2.2\helloworld.Core.csproj.CoreCompileInputs.cache
+C:\dev\practicefusion\LabsNetworkPocSpikes\helloworld\src\Core\obj\Debug\netcoreapp2.2\helloworld.Core.RazorAssemblyInfo.cache
+C:\dev\practicefusion\LabsNetworkPocSpikes\helloworld\src\Core\obj\Debug\netcoreapp2.2\helloworld.Core.RazorAssemblyInfo.cs
+C:\dev\practicefusion\LabsNetworkPocSpikes\helloworld\src\Core\obj\Debug\netcoreapp2.2\helloworld.Core.AssemblyInfoInputs.cache
+C:\dev\practicefusion\LabsNetworkPocSpikes\helloworld\src\Core\obj\Debug\netcoreapp2.2\helloworld.Core.AssemblyInfo.cs
+C:\dev\practicefusion\LabsNetworkPocSpikes\helloworld\src\Core\obj\Debug\netcoreapp2.2\helloworld.Core.RazorTargetAssemblyInfo.cache
+C:\dev\practicefusion\LabsNetworkPocSpikes\helloworld\src\Core\obj\Debug\netcoreapp2.2\helloworld.Core.dll
+C:\dev\practicefusion\LabsNetworkPocSpikes\helloworld\src\Core\obj\Debug\netcoreapp2.2\helloworld.Core.pdb
