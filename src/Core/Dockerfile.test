@@ -9,11 +9,7 @@ COPY ./src/. ./src/.
 
 # Create a test image from build
 FROM build AS test
-# Copy test directories
-COPY ./test/. ./test/.
-
 # Run tests
-WORKDIR /app/src
 RUN dotnet restore
 RUN dotnet dotcover test --dcReportType=html
 
